@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Dec  9 10:12:01 2019
+# Process ID: 12504
+# Current directory: D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9224 D:\Projects\Vivado\COAD\comprehensive-hardware-design\comprehensive-hardware-design\comprehensive-hardware-design.xpr
+# Log file: D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/vivado.log
+# Journal file: D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/comprehensive-hardware-design.xpr
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes {D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/datapath.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/top.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/alu.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/mips.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/flopr.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/testbench.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/regfile.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/miandec.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/sl2.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/adder.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/mux2.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/signext.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/controller.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/aludec.v}
+import_files -norecurse {D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/datapath.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/top.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/alu.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/mips.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/flopr.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/testbench.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/regfile.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/miandec.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/sl2.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/adder.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/mux2.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/signext.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/controller.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/comprehensive-hardware-design/rtl/aludec.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/adder.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/alu.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/aludec.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/controller.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/datapath.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/flopr.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/miandec.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/mips.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/mux2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/regfile.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/signext.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/sl2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/top.v] -no_script -reset -force -quiet
+remove_files  {D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/adder.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/alu.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/aludec.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/controller.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/datapath.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/flopr.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/miandec.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/mips.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/mux2.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/regfile.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/signext.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/sl2.v D:/Projects/Vivado/COAD/comprehensive-hardware-design/exp_4/rtl/top.v}
+launch_simulation
+source testbench.tcl
+relaunch_sim
