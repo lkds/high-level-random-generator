@@ -2,27 +2,27 @@
 verilog xil_defaultlib  \
 "../../../../comprehensive-hardware-design.srcs/sources_1/ip/data_mem/sim/data_mem.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/ip/inst_mem/sim/inst_mem.v" \
-"../../../../../exp_4/rtl/adder.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/adder.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/new/addstall.v" \
-"../../../../../exp_4/rtl/alu.v" \
-"../../../../../exp_4/rtl/aludec.v" \
-"../../../../../exp_4/rtl/controller.v" \
-"../../../../../exp_4/rtl/datapath.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/alu.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/aludec.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/controller.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/datapath.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/new/eqcmp.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/new/flopenr.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/new/flopenrc.v" \
-"../../../../../exp_4/rtl/flopr.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/flopr.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/new/floprc.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/new/hazard.v" \
-"../../../../../exp_4/rtl/miandec.v" \
-"../../../../../exp_4/rtl/mips.v" \
-"../../../../../exp_4/rtl/mux2.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/miandec.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/mips.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/mux2.v" \
 "../../../../comprehensive-hardware-design.srcs/sources_1/new/mux3.v" \
-"../../../../../exp_4/rtl/regfile.v" \
-"../../../../../exp_4/rtl/signext.v" \
-"../../../../../exp_4/rtl/sl2.v" \
-"../../../../../exp_4/rtl/top.v" \
-"../../../../../exp_4/rtl/testbench.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/regfile.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/signext.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/sl2.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/top.v" \
+"../../../../comprehensive-hardware-design.srcs/sources_1/imports/rtl/testbench.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
